@@ -81,9 +81,10 @@ textarea {
 	font: 300 20px/1 Lato, sans-serif;
 	background: #FFF;
 	margin-left: 30px;
-	width: 30%;
+	width: 33.3%;
 	border-radius: 5px;
 	text-align: center;
+	box-shadow:0 3px #ceb567;
 
 }
 .ba-cup-gold{
@@ -102,17 +103,24 @@ textarea {
 	color: #02995b;
 	/* margin: 0; */
 }
-.ba-image-gold{
-	margin-bottom: 47px;
+.ba-image__gold{
+	margin-bottom: 40px;
 }
 .ba-cup__title{
 	font: 400 56px/1 Miso, sans-serif;
 	color:#333333;
+	margin: 0;
 }
 .ba-cup__subtitle{
 
-	width: 156px;
-	margin: 0;
+	max-width: 160px;
+	margin: 0 auto;
 	text-align: center;
 
+}
+.ba-bronze, .ba-silver{
+	margin-bottom: 23px;
+}
+.ba-image__bronze, .ba-image__silver{
+	margin-bottom: 38px;
 }
